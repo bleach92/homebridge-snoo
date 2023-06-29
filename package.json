@@ -1,16 +1,16 @@
 {
-  "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "private": false,
+  "displayName": "Snoo Smart Bassinet",
+  "name": "homebridge-snoo",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "Control your snoo smart Bassinet.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/bleach92/homebridge-snoo.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/bleach92/homebridge-snoo/issues"
   },
   "engines": {
     "node": ">=14.18.1",

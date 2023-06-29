@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "homebridge-snoo",
   "pluginType": "platform",
   "singular": true,
   "schema": {
@@ -9,8 +9,21 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "default": "Snoo"
+      },
+      "user": {
+        "title": "Username",
+        "type": "string",
+        "required": true,
+        "default": ""
+      },
+      "pass": {
+        "title": "Password",
+        "type": "string",
+        "required": true,
+        "default": ""
       }
+      
     }
   }
 }
